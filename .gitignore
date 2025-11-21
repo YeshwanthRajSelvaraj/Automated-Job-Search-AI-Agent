@@ -1,36 +1,41 @@
-# Virtual environment
+# Virtual Environments
 venv/
 ENV/
 env/
 
-# Python cache
+# Python Cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Environment variables
+# Environment Variables
 .env
 
-# Resume / Personal Data
+# Resume and Sensitive Files
 resume.pdf
 *.pdf
 
-# Playwright browser storage
+# Playwright Browser Data
 playwright/
 playwright-report/
 playwright/.cache/
 
-# Streamlit cache
+# Streamlit Cache
 .streamlit/
 
 # Logs
 *.log
 
-# OS-generated files
+# OS Generated Files
 .DS_Store
 Thumbs.db
 
-# IDE-specific
+# IDE Related Files
 .vscode/
 .idea/
+
+# Python Build Artifacts
+build/
+dist/
+*.egg-info/
