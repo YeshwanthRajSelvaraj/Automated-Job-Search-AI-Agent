@@ -74,9 +74,14 @@ source venv/bin/activate # MacOS/Linux
 
 ### 3. Install Dependencies
 
-pip install -r requirements.txt
-pip install streamlit pandas
-python -m playwright install
+1. pip install -r requirements.txt
+2. pip install streamlit pandas
+3. python -m playwright install
+4. pip install langchain-google-genai
+5. pip install google-generativeai
+6. pip install --upgrade google-generativeai
+7. pip install --upgrade langchain langchain-google-genai
+
 
 
 ### 4. Configure API Keys
